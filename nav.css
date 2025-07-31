@@ -1,0 +1,124 @@
+header {
+        font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffffe2;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    border-radius: 900px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.703)), url('../images/1eye.jpg');
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-links li a.active {
+    color: orange;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons a {
+    margin-left: 15px;
+    color: #777;
+    text-decoration: none;
+}
+
+.nav-icons .download-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+/* .nav-links li a.active, */
+.nav-links li a:hover {
+    color: rgb(252, 172, 0);
+    font-weight: bold;
+}
+
+/* 
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: stretch;
+    }
+    header {
+        border-radius: 0 !important; 
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        width: 100% !important;
+        background-position: center 80%; 
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-links li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 0;
+    }
+    .nav-icons {
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-icons a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .download-btn {
+        width: 100%;
+        text-align: center;
+    }
+} */
